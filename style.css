@@ -1,0 +1,104 @@
+/* Styling Page */
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(./images/hotel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Styling Form */
+form {
+    background-color: rgba(44, 62, 80, 0.7);
+    width: 300px;
+    padding: 40px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+/* Styling Form-title */
+h2 {
+    color: gold;
+    font-size: 45px;
+    text-align: left;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* Styling Input */
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    background: transparent;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+::placeholder {
+    color: white;
+    opacity: 0.35;
+}
+
+/* Styling Button */
+button {
+    margin: 10px auto 10px auto;
+    width: 60%;
+    padding: 10px 20px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid gold;
+}
+
+/* Styling Bottom */
+p {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+br {display: none;}
+
+a {
+    color: gold;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+/* Responsiveness */
+@media screen and (max-width:500px) {
+    form {
+        width: 230px;
+    }
+
+    h2 {
+        font-size: 35px;
+    }
+
+    button {
+        width: 80%;
+    }
+
+    br {
+        display: block;
+    }
+}
