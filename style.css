@@ -1,4 +1,8 @@
 /* Styling Page */
+* {
+  box-sizing: border-box;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -11,10 +15,11 @@ body {
 /* Styling Form */
 form {
     background-color: rgba(44, 62, 80, 0.7);
-    width: 300px;
+    width: 400px;
     padding: 40px;
     margin: 100px auto;
     text-align: center;
+    border-radius: 5px;
 }
 
 /* Styling Form-title */
@@ -33,6 +38,7 @@ input {
     outline: none;
     background: transparent;
     color: white;
+    border-radius: 3px;
     font-size: 18px;
     text-align: center;
     margin-bottom: 20px;
@@ -53,6 +59,7 @@ button {
     outline: none;
     border: none;
     cursor: pointer;
+    background-color: white;
     font-weight: 700;
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
@@ -81,13 +88,16 @@ a {
 
 a:hover {
     text-decoration: underline;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 /* Responsiveness */
 @media screen and (max-width:500px) {
     form {
-        width: 230px;
+        margin: 70px auto;
+        width: 300px;
+        max-width: 90%;
+        padding: 30px;
     }
 
     h2 {
@@ -101,4 +111,5 @@ a:hover {
     br {
         display: block;
     }
+
 }
